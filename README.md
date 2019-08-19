@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 Download Features
 ----------------------
-1. We used the bottom-up attention features as image features. Download the image features below, and put these under each `$PROJECT_ROOT/data/{split name}_feature` directory. 
+1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/split_name_feature` directory. 
 
   * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10-100 proposals from images of `train` split (32GB).
   * [`val_btmup_f.hdf5`][4]: Bottom-up features of 10-100 proposals from images of `validation` split (0.5GB). 
