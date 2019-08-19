@@ -57,7 +57,7 @@ python train.py
 By default, our model save model checkpoints at every epoch. You can change it by using `-save_step` option. 
 
 ### Logging
-Logging data (`checkpoints/date/log.txt`) shows epoch, loss, and learning rate.
+Logging data `checkpoints/start/training/time/log.txt` shows epoch, loss, and learning rate.
 
 Evaluation
 --------
