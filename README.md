@@ -38,9 +38,9 @@ Download Features
 ----------------------
 1. We used the bottom-up attention features as image features. Download the image features below, and put these under each `$PROJECT_ROOT/data/{split name}_feature` directory. 
 
-  * [`train_btmup_f.hdf5`]([3]): Bottom-up features of 10-100 proposals from images of `train` split.
-  * [`val_btmup_f.hdf5`]([4]): Bottom-up features of 10-100 proposals from images of `validation` split. 
-  * [`test_btmup_f.hdf5`]([5]): Bottom-up features of 10-100 proposals from images of `test` split. 
+  * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10-100 proposals from images of `train` split.
+  * [`val_btmup_f.hdf5`][4]: Bottom-up features of 10-100 proposals from images of `validation` split. 
+  * [`test_btmup_f.hdf5`][5]: Bottom-up features of 10-100 proposals from images of `test` split. 
 
 2. Download the GloVe pretrained word vectors from [here][6], and keep `glove.6B.300d.txt` under `$PROJECT_ROOT/data/glove` directory.
 
@@ -75,7 +75,7 @@ Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
 python evaluate.py -load_path /path/to/.pth -split {val or test}
 ```
-Validation scores can be checked in offline setting. But if you want to see the test-split score, you have to submit a json file to [online evaluation server]([7]). You can make json format with `-save_ranks` option. 
+Validation scores can be checked in offline setting. But if you want to see the test-split score, you have to submit a json file to [online evaluation server][7]. You can make json format with `-save_ranks` option. 
 
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
