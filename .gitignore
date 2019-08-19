@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Distribution / packaging
+.Python
+env/
+build/
+
+# Datasets and preprocessed files
+data/train_feature/*.hdf5
+data/val_feature/*.hdf5
+data/test_feature/*.hdf5
+data/glove/*
+data/*.zip
+data/*.json
+data/*.h5
+
+# Checkpoints directory
+checkpoints/*
+!checkpoints/README.md
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# virtualenv
+venv/
+ENV/
+
+# log
+nohup.out

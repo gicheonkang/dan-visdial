@@ -1,0 +1,1 @@
+/data/data/visdial/val_feature/val_imgid2idx.pkl

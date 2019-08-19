@@ -1,0 +1,1 @@
+/data/data/visdial/train_feature/train_imgid2idx.pkl
