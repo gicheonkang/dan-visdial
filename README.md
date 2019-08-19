@@ -38,9 +38,9 @@ Download Features
 ----------------------
 1. We used the bottom-up attention features as image features. Download the image features below, and put these under each `$PROJECT_ROOT/data/{split name}_feature` directory. 
 
-  * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10-100 proposals from images of `train` split.
-  * [`val_btmup_f.hdf5`][4]: Bottom-up features of 10-100 proposals from images of `validation` split. 
-  * [`test_btmup_f.hdf5`][5]: Bottom-up features of 10-100 proposals from images of `test` split. 
+  * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10-100 proposals from images of `train` split (32GB).
+  * [`val_btmup_f.hdf5`][4]: Bottom-up features of 10-100 proposals from images of `validation` split (0.5GB). 
+  * [`test_btmup_f.hdf5`][5]: Bottom-up features of 10-100 proposals from images of `test` split (2GB). 
 
 2. Download the GloVe pretrained word vectors from [here][6], and keep `glove.6B.300d.txt` under `$PROJECT_ROOT/data/glove` directory.
 
