@@ -73,7 +73,7 @@ Evaluation
 --------
 Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
-python evaluate.py -load_path /path/to/.pth -split {val or test}
+python evaluate.py -load_path /path/to/.pth -split val or test
 ```
 Validation scores can be checked in offline setting. But if you want to see the test-split score, you have to submit a json file to [online evaluation server][7]. You can make json format with `-save_ranks` option. 
 
