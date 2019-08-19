@@ -6,16 +6,6 @@ For the visual dialog v1.0 dataset, our single model achieved **57.59** on NDCG 
 
 ![Overview of Dual Attention Networks](dan_overview.jpg)
 
-If you use this code in your published research, please consider citing:
-```text
-@article{kang2019dual,
-  title={Dual Attention Networks for Visual Reference Resolution in Visual Dialog},
-  author={Kang, Gi-Cheon and Lim, Jaeseo and Zhang, Byoung-Tak},
-  journal={arXiv preprint arXiv:1902.09368},
-  year={2019}
-}
-```
-
 Setup and Dependencies
 ----------------------
 This starter code is implemented using **PyTorch v0.3.1** with **CUDA 8 and CuDNN 7**. <br>
@@ -75,7 +65,17 @@ Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
 python evaluate.py -load_path /path/to/.pth -split {val or test}
 ```
-if you want to see the test split score, you have to submit a json file to [online evaluation server]([7]). 
+If you want to see the test split score, you have to submit a json file to [online evaluation server]([7]). 
+
+If you use this code in your published research, please consider citing:
+```text
+@article{kang2019dual,
+  title={Dual Attention Networks for Visual Reference Resolution in Visual Dialog},
+  author={Kang, Gi-Cheon and Lim, Jaeseo and Zhang, Byoung-Tak},
+  journal={arXiv preprint arXiv:1902.09368},
+  year={2019}
+}
+```
 
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
