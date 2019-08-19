@@ -34,7 +34,7 @@ cd DAN-VisDial/
 pip install -r requirements.txt
 ```
 
-### Data preprocessing & Word embedding initialization  
+### Data preprocessing & GloVe embedding initialization  
 ```sh
 # data preprocessing
 cd DAN-VisDial/data/
