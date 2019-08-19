@@ -5,7 +5,7 @@ PyTorch implementation for the [Dual Attention Networks for Visual Reference Res
 For the visual dialog v1.0 dataset, our single model achieved state-of-the-art performance on **NDCG, MRR, and R@1**.   
 
 <!--![Overview of Dual Attention Networks](dan_overview.jpg)-->
-<img src="dan_overview.jpg" width="80%">
+<img src="dan_overview.jpg" width="90%" align="middle">
 
 If you use this code in your published research, please consider citing:
 ```text
