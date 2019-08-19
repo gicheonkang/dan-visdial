@@ -1,4 +1,4 @@
-DAN-Visdial
+DAN-VisDial
 ========================================================================
 
 PyTorch implementation for the [Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]. <br>
