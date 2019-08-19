@@ -75,7 +75,7 @@ Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
 python evaluate.py -load_path /path/to/.pth -split val or test
 ```
-Validation scores can be checked in offline setting. But if you want to see the test-split score, you have to submit a json file to [online evaluation server][7]. You can make json format with `-save_ranks` option. 
+Validation scores can be checked in offline setting. But if you want to check the test-split score, you have to submit a json file to [online evaluation server][7]. You can make json format with `-save_ranks=True` option. 
 
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
