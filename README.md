@@ -2,7 +2,7 @@ DAN-Visdial
 ========================================================================
 
 PyTorch implementation for the [Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]. <br>
-For the visual dialog v1.0 dataset, our single model achieved state-of-the-art performance on NDCG, MRR, and R@1.   
+For the visual dialog v1.0 dataset, our single model achieved state-of-the-art performance on **NDCG, MRR, and R@1**.   
 
 ![Overview of Dual Attention Networks](dan_overview.jpg)
 
