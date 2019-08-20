@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 Download Features
 ----------------------
-1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/split_name_feature` directory. 
+1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/SPLIT_NAME_feature` directory. 
 
   * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10 to 100 proposals from images of `train` split (32GB).
   * [`val_btmup_f.hdf5`][4]: Bottom-up features of 10 to 100 proposals from images of `validation` split (0.5GB). 
@@ -68,13 +68,13 @@ python train.py
 By default, our model save model checkpoints at every epoch. You can change it by using `-save_step` option. 
 
 ### Logging
-Logging data `checkpoints/start/training/time/log.txt` shows epoch, loss, and learning rate.
+Logging data `checkpoints/start/time/log.txt` shows epoch, loss, and learning rate.
 
 Evaluation
 --------
 Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
-python evaluate.py -load_path /path/to/.pth -split val or test
+python evaluate.py -load_path /path/to/.pth -split SPLIT_NAME
 ```
 Validation scores can be checked in offline setting. But if you want to check the test-split score, you have to submit a json file to [online evaluation server][7]. You can make json format with `-save_ranks=True` option. 
 
