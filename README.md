@@ -9,10 +9,10 @@ For the visual dialog v1.0 dataset, our single model achieved state-of-the-art p
 
 If you use this code in your published research, please consider citing:
 ```text
-@article{kang2019dual,
+@inproceedings{kang2019dual,
   title={Dual Attention Networks for Visual Reference Resolution in Visual Dialog},
   author={Kang, Gi-Cheon and Lim, Jaeseo and Zhang, Byoung-Tak},
-  journal={arXiv preprint arXiv:1902.09368},
+  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
   year={2019}
 }
 ```
