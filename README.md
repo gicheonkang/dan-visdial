@@ -79,7 +79,15 @@ Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
 python evaluate.py -load_path /path/to/.pth -split val
 ```
-Validation scores can be checked in offline setting. But if you want to check the `test split` score, you have to submit a json file to [online evaluation server][10]. You can make json format with `-save_ranks=True` option. 
+Validation scores can be checked in offline setting. But if you want to check the `test split` score, you have to submit a json file to [online evaluation server][10]. You can make json format with `-save_ranks=True` option.
+
+Results
+--------
+Performance on `v1.0 test-std` (trained on `v1.0` train):
+
+  Model  |  NDCG   |  MRR   |  R@1  | R@5  |  R@10   |  Mean  |
+ ------- | ------ | ------ | ------ | ------ | ------ | ------ |
+DAN | 0.5759 | 0.6320 | 49.63 |  79.75| 89.35 | 4.30 |
 
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
