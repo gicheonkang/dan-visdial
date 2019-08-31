@@ -37,13 +37,16 @@ pip install -r requirements.txt
 
 Download Features
 ----------------------
-1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/SPLIT_NAME_feature` directory. 
+1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/SPLIT_NAME_feature` directory. We need `image_id` to RCNN bounding box index file (imgid2idx.pkl) because the number of bounding box per image is not fixed (ranging from 10 to 100).
 
   * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10 to 100 proposals from images of `train` split (32GB).
-  * [`val_btmup_f.hdf5`][4]: Bottom-up features of 10 to 100 proposals from images of `validation` split (0.5GB). 
-  * [`test_btmup_f.hdf5`][5]: Bottom-up features of 10 to 100 proposals from images of `test` split (2GB). 
+  * [`train_imgid2idx.pkl`][4]: `image_id` to bbox index file for `train` split 
+  * [`val_btmup_f.hdf5`][5]: Bottom-up features of 10 to 100 proposals from images of `validation` split (0.5GB).
+  * [`val_imgid2idx.pkl`][6]: `image_id` to bbox index file for `val` split
+  * [`test_btmup_f.hdf5`][7]: Bottom-up features of 10 to 100 proposals from images of `test` split (2GB).
+  * [`test_imgid2idx.pkl`][8]: `image_id` to bbox index file for `test` split
 
-2. Download the GloVe pretrained word vectors from [here][6], and keep `glove.6B.300d.txt` under `$PROJECT_ROOT/data/glove` directory.
+2. Download the GloVe pretrained word vectors from [here][9], and keep `glove.6B.300d.txt` under `$PROJECT_ROOT/data/glove` directory.
 
 Data preprocessing & Word embedding initialization
 ----------------------
@@ -76,12 +79,15 @@ Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
 python evaluate.py -load_path /path/to/.pth -split SPLIT_NAME
 ```
-Validation scores can be checked in offline setting. But if you want to check the test-split score, you have to submit a json file to [online evaluation server][7]. You can make json format with `-save_ranks=True` option. 
+Validation scores can be checked in offline setting. But if you want to check the test-split score, you have to submit a json file to [online evaluation server][10]. You can make json format with `-save_ranks=True` option. 
 
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
 [3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
-[4]: https://drive.google.com/file/d/1NI5TNKKhqm6ggpB2CK4k8yKiYQE3efW6/view?usp=sharing
-[5]: https://drive.google.com/file/d/1BXWPV3k-HxlTw_k3-kTV6JhWrdzXsT7W/view?usp=sharing
-[6]: http://nlp.stanford.edu/data/glove.6B.zip 
-[7]: https://evalai.cloudcv.org/web/challenges/challenge-page/161/overview
+[4]: https://drive.google.com/file/d/1QSi0Lr4XKdQ2LdoS1taS6P9IBVAKRntF/view?usp=sharing
+[5]: https://drive.google.com/file/d/1NI5TNKKhqm6ggpB2CK4k8yKiYQE3efW6/view?usp=sharing
+[6]: https://drive.google.com/file/d/1nTBaLziRIVkKAqFtQ-YIbXew2tYMUOSZ/view?usp=sharing
+[7]: https://drive.google.com/file/d/1BXWPV3k-HxlTw_k3-kTV6JhWrdzXsT7W/view?usp=sharing
+[8]: https://drive.google.com/file/d/1_32kGhd6wKzQLqfmqJzIHubfZwe9nhFy/view?usp=sharing
+[9]: http://nlp.stanford.edu/data/glove.6B.zip 
+[10]: https://evalai.cloudcv.org/web/challenges/challenge-page/161/overview
