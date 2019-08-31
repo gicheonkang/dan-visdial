@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 Download Features
 ----------------------
-1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/SPLIT_NAME_feature` directory. We need `image_id` to RCNN bounding box index file (imgid2idx.pkl) because the number of bounding box per image is not fixed (ranging from 10 to 100).
+1. We used the Faster-RCNN pre-trained with Visual Genome as image features. Download the image features below, and put each feature under `$PROJECT_ROOT/data/{SPLIT_NAME}_feature` directory. We need `image_id` to RCNN bounding box index file (`{SPLIT_NAME}_imgid2idx.pkl`) because the number of bounding box per image is not fixed (ranging from 10 to 100).
 
   * [`train_btmup_f.hdf5`][3]: Bottom-up features of 10 to 100 proposals from images of `train` split (32GB).
   * [`train_imgid2idx.pkl`][4]: `image_id` to bbox index file for `train` split 
@@ -77,9 +77,9 @@ Evaluation
 --------
 Evaluation of a trained model checkpoint can be evaluated as follows:
 ```sh
-python evaluate.py -load_path /path/to/.pth -split SPLIT_NAME
+python evaluate.py -load_path /path/to/.pth -split val
 ```
-Validation scores can be checked in offline setting. But if you want to check the test-split score, you have to submit a json file to [online evaluation server][10]. You can make json format with `-save_ranks=True` option. 
+Validation scores can be checked in offline setting. But if you want to check the `test split` score, you have to submit a json file to [online evaluation server][10]. You can make json format with `-save_ranks=True` option. 
 
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
