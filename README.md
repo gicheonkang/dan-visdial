@@ -22,7 +22,7 @@ Setup and Dependencies
 This starter code is implemented using **PyTorch v0.3.1** with **CUDA 8 and CuDNN 7**. <br>
 It is recommended to set up this source code using Anaconda or Miniconda. <br>
 
-1. Install Anaconda or Miniconda distribution based on Python 3.6+ from their [downloads' site][2].
+1. Install Anaconda or Miniconda distribution based on **Python 3.6+** from their [downloads' site][2].
 2. Clone this repository and create an environment:
 
 ```sh
