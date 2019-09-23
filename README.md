@@ -89,6 +89,10 @@ Performance on `v1.0 test-std` (trained on `v1.0` train):
  ------- | ------ | ------ | ------ | ------ | ------ | ------ |
 DAN | 0.5759 | 0.6320 | 49.63 |  79.75| 89.35 | 4.30 |
 
+License
+--------
+MIT License
+
 [1]: https://arxiv.org/abs/1902.09368
 [2]: https://conda.io/docs/user-guide/install/download.html
 [3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
