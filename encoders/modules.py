@@ -37,12 +37,16 @@ class FIND(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.linear = weight_norm(nn.Linear(num_hid, 1), dim=None)
 
-    def forward(self, v, q):
+    def forward(self, v, q, v_mask=True):
         """
         v: [batch, v, 2048]
         q: [10, batch, 1024]
         """
         logits = self.logits(v, q)
+        if v_mask:
+            mask = (0 == v.abs().sum(2)).unsqueeze(2)
+            logits.data.masked_fill_(mask.data, -float('inf'))
+        
         w = nn.functional.softmax(logits, 1)
         return w
 
