@@ -1,8 +1,11 @@
 DAN-VisDial
 ========================================================================
 
-PyTorch implementation for the EMNLP'19 [Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]. <br>
-For the visual dialog v1.0 dataset, our single model achieved state-of-the-art performance on **NDCG, MRR, and R@1**.   
+Pytorch Implementation for the paper:
+
+**[Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]**
+[Gi-Cheon Kang](https://gicheonkang.com), [Jaeseo Lim](https://jaeseolim.github.io), Byoung-Tak Zhang(https://bi.snu.ac.kr/~btzhang/)
+In EMNLP 2019  
 
 <!--![Overview of Dual Attention Networks](dan_overview.jpg)-->
 <img src="dan_overview.jpg" width="90%" align="middle">
