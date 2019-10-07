@@ -37,7 +37,7 @@ class FIND(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.linear = weight_norm(nn.Linear(num_hid, 1), dim=None)
 
-    def forward(self, v, q, v_mask=True):
+    def forward(self, v, q, v_mask=False):
         """
         v: [batch, v, 2048]
         q: [10, batch, 1024]
