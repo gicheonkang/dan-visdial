@@ -3,8 +3,8 @@ DAN-VisDial
 
 Pytorch Implementation for the paper:
 
-**[Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]**
-[Gi-Cheon Kang](https://gicheonkang.com), [Jaeseo Lim](https://jaeseolim.github.io), Byoung-Tak Zhang(https://bi.snu.ac.kr/~btzhang/)
+**[Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]** <br>
+[Gi-Cheon Kang](https://gicheonkang.com), [Jaeseo Lim](https://jaeseolim.github.io), [Byoung-Tak Zhang](https://bi.snu.ac.kr/~btzhang/)
 In EMNLP 2019  
 
 <!--![Overview of Dual Attention Networks](dan_overview.jpg)-->
