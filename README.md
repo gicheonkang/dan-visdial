@@ -84,13 +84,20 @@ python evaluate.py -load_path /path/to/.pth -split val
 ```
 Validation scores can be checked in offline setting. But if you want to check the `test split` score, you have to submit a json file to [online evaluation server][10]. You can make json format with `-save_ranks=True` option.
 
-Results
+Pre-trained model & Results
 --------
+We provide the [pre-trained model][11] reported as the best single model in the paper. <br>
+To reproduce the results reported in the paper, please run the command below and submit the json file to [online evaluation server][10].
+```sh
+python evaluate.py -load_path /path/to/dan_disc_epoch_12.pth -split test -use_gt False -save_ranks True
+```
+
 Performance on `v1.0 test-std` (trained on `v1.0` train):
 
   Model  |  NDCG   |  MRR   |  R@1  | R@5  |  R@10   |  Mean  |
  ------- | ------ | ------ | ------ | ------ | ------ | ------ |
 DAN | 0.5759 | 0.6320 | 49.63 |  79.75| 89.35 | 4.30 |
+
 
 License
 --------
@@ -106,3 +113,4 @@ MIT License
 [8]: https://drive.google.com/file/d/1_32kGhd6wKzQLqfmqJzIHubfZwe9nhFy/view?usp=sharing
 [9]: http://nlp.stanford.edu/data/glove.6B.zip 
 [10]: https://evalai.cloudcv.org/web/challenges/challenge-page/161/overview
+[11]: https://drive.google.com/file/d/1lI8vldgfr3LLSDvJ5j1rf1vwDCnxzXbU/view?usp=sharing
