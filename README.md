@@ -16,6 +16,7 @@ If you use this code in your published research, please consider citing:
   title={Dual Attention Networks for Visual Reference Resolution in Visual Dialog},
   author={Kang, Gi-Cheon and Lim, Jaeseo and Zhang, Byoung-Tak},
   booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+  pages = {2024--2033},
   year={2019}
 }
 ```
@@ -103,7 +104,7 @@ License
 --------
 MIT License
 
-[1]: https://arxiv.org/abs/1902.09368
+[1]: https://www.aclweb.org/anthology/D19-1209.pdf
 [2]: https://conda.io/docs/user-guide/install/download.html
 [3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
 [4]: https://drive.google.com/file/d/1QSi0Lr4XKdQ2LdoS1taS6P9IBVAKRntF/view?usp=sharing
