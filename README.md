@@ -104,7 +104,7 @@ License
 --------
 MIT License
 
-[1]: https://www.aclweb.org/anthology/D19-1209.pdf
+[1]: https://www.aclweb.org/anthology/D19-1209
 [2]: https://conda.io/docs/user-guide/install/download.html
 [3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
 [4]: https://drive.google.com/file/d/1QSi0Lr4XKdQ2LdoS1taS6P9IBVAKRntF/view?usp=sharing
