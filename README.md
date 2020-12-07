@@ -104,6 +104,10 @@ License
 --------
 MIT License
 
+Acknowledgements
+--------
+This work was partly supported by the Korea government (2015-0-00310-SW.StarLab, 2017-0-01772-VTT, 2018-0-00622-RMI, 2019-0-01367-BabyMind, 10060086-RISF, P0006720-GENKO), and the ICT at Seoul National University.
+
 [1]: https://www.aclweb.org/anthology/D19-1209
 [2]: https://conda.io/docs/user-guide/install/download.html
 [3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
