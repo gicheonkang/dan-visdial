@@ -1,4 +1,4 @@
-DAN-VisDial
+Dual Attention Networks for Visual Dialog
 ========================================================================
 
 Pytorch Implementation for the paper:
