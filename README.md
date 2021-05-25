@@ -35,7 +35,7 @@ conda create -n dan_visdial python=3.6
 
 # activate the environment and install all dependencies
 conda activate dan_visdial
-cd DAN-VisDial/
+cd dan-visdial/
 pip install -r requirements.txt
 ```
 
