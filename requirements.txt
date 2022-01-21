@@ -4,7 +4,7 @@ cffi==1.12.1
 cycler==0.10.0
 decorator==4.3.2
 h5py==2.8.0
-ipython==6.4.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.13.3
 kiwisolver==1.1.0
