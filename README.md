@@ -5,7 +5,7 @@ Pytorch Implementation for the paper:
 
 **[Dual Attention Networks for Visual Reference Resolution in Visual Dialog][1]** <br>
 [Gi-Cheon Kang](https://gicheonkang.com), [Jaeseo Lim](https://jaeseolim.github.io), and [Byoung-Tak Zhang](https://bi.snu.ac.kr/~btzhang/) <br>
-In EMNLP 2019  
+**In EMNLP 2019**  
 
 <!--![Overview of Dual Attention Networks](dan_overview.jpg)-->
 <img src="dan_overview.jpg" width="90%" align="middle">
@@ -110,12 +110,12 @@ This work was partly supported by the Korea government (2015-0-00310-SW.StarLab,
 
 [1]: https://www.aclweb.org/anthology/D19-1209
 [2]: https://conda.io/docs/user-guide/install/download.html
-[3]: https://drive.google.com/file/d/1NYlSSikwEAqpJDsNGqOxgc0ZOkpQtom9/view?usp=sharing
-[4]: https://drive.google.com/file/d/1QSi0Lr4XKdQ2LdoS1taS6P9IBVAKRntF/view?usp=sharing
-[5]: https://drive.google.com/file/d/1NI5TNKKhqm6ggpB2CK4k8yKiYQE3efW6/view?usp=sharing
-[6]: https://drive.google.com/file/d/1nTBaLziRIVkKAqFtQ-YIbXew2tYMUOSZ/view?usp=sharing
-[7]: https://drive.google.com/file/d/1BXWPV3k-HxlTw_k3-kTV6JhWrdzXsT7W/view?usp=sharing
-[8]: https://drive.google.com/file/d/1_32kGhd6wKzQLqfmqJzIHubfZwe9nhFy/view?usp=sharing
+[3]: https://www.dropbox.com/s/zxy37v9uloe18qi/train_btmup_f.hdf5?dl=0
+[4]: https://www.dropbox.com/s/at4gw7crwnm2jlu/train_imgid2idx.pkl?dl=0
+[5]: https://www.dropbox.com/s/c33xjfddz45ff6r/val_btmup_f.hdf5?dl=0
+[6]: https://www.dropbox.com/s/apdwn1a3z6b1fjn/val_imgid2idx.pkl?dl=0
+[7]: https://www.dropbox.com/s/e7d3mpwe2it2z7y/test_btmup_f.hdf5?dl=0
+[8]: https://www.dropbox.com/s/b2c3dgxj2qaktkt/test_imgid2idx.pkl?dl=0
 [9]: http://nlp.stanford.edu/data/glove.6B.zip 
 [10]: https://evalai.cloudcv.org/web/challenges/challenge-page/161/overview
-[11]: https://drive.google.com/file/d/1lI8vldgfr3LLSDvJ5j1rf1vwDCnxzXbU/view?usp=sharing
+[11]: https://www.dropbox.com/s/ry0wfaedkt9gea0/dan_disc_epoch_12.pth?dl=0
