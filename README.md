@@ -11,7 +11,7 @@ Pytorch Implementation for the paper:
 <img src="dan_overview.jpg" width="90%" align="middle">
 
 If you use this code in your published research, please consider citing:
-```text
+```bibtex
 @inproceedings{kang2019dual,
   title={Dual Attention Networks for Visual Reference Resolution in Visual Dialog},
   author={Kang, Gi-Cheon and Lim, Jaeseo and Zhang, Byoung-Tak},
